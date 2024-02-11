@@ -1,0 +1,51 @@
+{
+  "game": "Terraforming Mars",
+  "expansions": ["Prelude", "Venus Next", "Colonies"],
+  "categories": [
+    { "name": "Terraforming Rating", "short": "TR" },
+    { "name": "Greeneries", "short": "G" },
+    { "name": "Cities & Greeneries", "short": "C+G" },
+    { "name": "Milestones", "short": "MS" },
+    { "name": "Awards", "short": "A" },
+    { "name": "Cards", "short": "C" }
+  ],
+  "players": [
+    {
+      "name": "player 1",
+      "color": "red",
+      "active": true
+    },
+    {
+      "name": "player 2",
+      "color": "blue",
+      "active": true
+    },
+    {
+      "name": "player 3",
+      "color": "green",
+      "active": true
+    },
+    {
+      "name": "player 4",
+      "color": "yellow",
+      "active": false
+    },
+    {
+      "name": "player 5",
+      "color": "black",
+      "active": false
+    },
+    {
+      "name": "player 6",
+      "color": "white",
+      "active": false
+    }
+  ],
+  "points": [
+    {
+      "player": 1,
+      "category": "",
+      "value": 1
+    }
+  ]
+}

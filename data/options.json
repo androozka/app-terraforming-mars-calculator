@@ -1,0 +1,49 @@
+{
+  "games": [
+    {
+      "name": "Terraforming Mars",
+      "expansions": ["Prelude", "Venus Next", "Colonies", "Turmoil"],
+      "colors": ["red", "blue", "green", "yellow", "black"]
+    },
+    {
+      "name": "Ares Expedition",
+      "expansions": ["Foundations", "Discovery", "Crisis"],
+      "colors": ["red", "blue", "green", "yellow", "black", "white"]
+    }
+  ],
+  "categories": [
+    { "name": "Terraforming Rating", "short": "TR" },
+    { "name": "Greeneries", "short": "G" },
+    { "name": "Cities & Greeneries", "short": "C+G" },
+    { "name": "Milestones", "short": "MS" },
+    { "name": "Awards", "short": "A" },
+    { "name": "Cards", "short": "C" }
+  ],
+  "steps": [
+    {
+      "label": "Instructions",
+      "icon": "i-heroicons-information-circle-solid",
+      "component": "InstructionsDisplay"
+    },
+    {
+      "label": "Games",
+      "icon": "i-heroicons-cursor-arrow-rays-solid",
+      "component": "GameSelector"
+    },
+    {
+      "label": "Players",
+      "icon": "i-heroicons-user-group-solid",
+      "component": "PlayerSelector"
+    },
+    {
+      "label": "Points",
+      "icon": "i-heroicons-table-cells-solid",
+      "component": "PointsEntry"
+    },
+    {
+      "label": "Scores",
+      "icon": "i-heroicons-trophy",
+      "component": "ScoresDisplay"
+    }
+  ]
+}
